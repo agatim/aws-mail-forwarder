@@ -1,0 +1,9 @@
+{
+  "name": "aws-mail-forwarder",
+  "version": "0.0.1",
+  "description": "AWS Solution that forward all emails received in a specified domain",
+  "scripts": {
+  },
+  "author": "Mario Agati <agati.mario.93@gmail.com>",
+  "license": "MIT"
+}
