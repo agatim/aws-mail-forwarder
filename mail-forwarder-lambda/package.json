@@ -1,0 +1,21 @@
+{
+    "name": "mail-forwarder-lambda",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "build": "tsc && tsc-alias"
+    },
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.145",
+        "@types/node": "^20.0.0",
+        "@vitest/coverage-v8": "^2.1.8",
+        "tsc-alias": "^1.8.10",
+        "vitest": "^2.1.8"
+    },
+    "dependencies": {
+        "zod": "^3.24.1",
+        "@aws-sdk/client-dynamodb": "3.481.0",
+        "@aws-sdk/client-s3": "3.481.0",
+        "@aws-sdk/lib-dynamodb": "3.481.0"
+    }
+}
